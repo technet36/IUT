@@ -1,0 +1,59 @@
+body{
+    font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+    background-color: #343752;
+    margin: auto;
+    width: 90%;
+    height:90%;
+}
+aside{
+    float: right;
+}
+body>section{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 290px;
+    height: 130px;
+    padding: 10px;
+}
+.email{
+    background-color: #37B6B7;
+}
+.finance{
+    background-color: #683FB7;
+}
+.calendar{
+    background-color: #B71C54;
+}
+.weather{
+    background-color: #4C98E7;
+}
+
+.smallBox,.image {
+    padding: 0;
+    height: 150px;
+    width: 310px;
+}
+.smallBox>section{
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height:150px;
+}
+.smallBox>section>p{
+    font-size: 1.1em;
+    font-weight:bold;
+    text-align: center;
+}
+section>header{
+    font-size: 1.4em;
+    font-weight:bold;
+}
+.game{
+    margin-right: 10px;
+    background-color: #B71C54;
+}
+.music{
+    background-color: #DA542D;
+}

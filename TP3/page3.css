@@ -1,0 +1,11 @@
+p{
+    background-color: #303050;
+    color: whitesmoke;
+}
+aside{
+    border: solid 1px black;
+    float: right;
+}
+img{
+    vertical-align: bottom;
+}
