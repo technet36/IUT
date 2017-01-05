@@ -1,0 +1,32 @@
+div{
+    position: relative;
+    display: inline-block;
+    border: solid lightgray 1px;
+    height:108px;
+    width: 108px;
+    padding:20px;
+    margin: 5px;
+    vertical-align: top;
+}
+#div1{
+    background-color: dodgerblue;
+}
+#div2{
+    background-color: grey;
+}
+#div3{
+    background-color: darkred;
+    position: relative;
+    left: 10px;
+}
+ul{
+    margin:0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    padding:10px 20px;
+}

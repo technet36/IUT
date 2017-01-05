@@ -1,0 +1,35 @@
+nav ul{
+    position: relative;
+    display: inline-block;
+    padding:0;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px grey;
+}
+
+nav ul li:last-child a{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+nav ul li:first-child a{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    border: 1px gray solid;
+    background-color: lightgrey;
+    padding:20px;
+    text-decoration: none;
+    color: dimgray;
+    text-shadow: 1px 1px 1px white;
+}
+a:hover {
+    color: lightgray;
+    background-color: dimgray;
+    text-shadow: 1px 1px 1px #4f4f4f;
+}
