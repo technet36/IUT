@@ -28,7 +28,7 @@ a{
     color: dimgray;
     text-shadow: 1px 1px 1px white;
 }
-a:hover {
+li:hover {
     color: lightgray;
     background-color: dimgray;
     text-shadow: 1px 1px 1px #4f4f4f;
