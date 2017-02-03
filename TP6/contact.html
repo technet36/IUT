@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>easy PHP</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<section>
+    <div id="header">
+        <img src="logo.png" alt="Bon plan logo">
+        <h2>Formulaire de contact</h2>
+    </div>
+
+    <article>
+        <form method="get" action="merci.php">
+            <fieldset id="coord">
+                <legend>Vos coordonées</legend>
+                <div class="coordText">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" required placeholder="ex: Michel" autofocus>
+                </div>
+                <div class="coordText">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="prenom" id="prenom" required placeholder="ex: Dupond">
+                </div>
+                <div  class="coordText">
+                    <label for="mail">e-mail</label>
+                    <input type="email" name="mail" id="mail" required value="@iut2.upmf-grenoble.fr" >
+                </div>
+
+                <label for="radioType">Vous êtes ...</label>
+                <div id="radioType">
+                    <input type="radio" name="status" id="etu" value="etudiant" checked>
+                    <label for="etu">étudiant à l'iut2</label>
+                    <input type="radio" name="status" id="prof" value="prof">
+                    <label for="prof">enseignant à l'iut2</label>
+                    <input type="radio" name="status" id="other" value="autre">
+                    <label for="other">autre</label>
+                </div>
+
+            </fieldset>
+            <fieldset id="msg">
+                <legend>Votre message</legend>
+                <textarea name="msg">
+                    Bonjour,
+
+                    Juste pour recevoir par mail la liste des nouveaux bons plan ...
+
+                    Merci
+                </textarea>
+            </fieldset>
+            <div>
+                <div>
+                    <input type="checkbox" name="newsletter1" id="news1" checked>
+                    <label for="news1">Je souhaite recevoir par mail les nouveax bon plans</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="newsletter2" id="news2">
+                    <label for="news2">Je souhaite recevoir de l'information des partenaires du site</label>
+                </div>
+
+            </div>
+            <input type="submit" value="Envoyez">
+            <input type="reset" value="Initialisez">
+        </form>
+
+
+    </article>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* CSS styleW.ccs pour pageW.html */
+
+body{
+  background-color: #343752;
+  color: white;
+  font-family: Calibri, Arial, sans-serif;
+  width:90%;
+  margin: auto;
+}
+header h1{
+	font-variant:small-caps;
+	text-align:center;
+  font-weight: normal;
+}
+nav {
+	background-color: #E16A72;
+	padding:5px;
+	margin-bottom:10px;
+}
+nav ul {
+	margin:0px;
+	padding:0px;
+	text-align:right;
+}
+nav a{
+  color:#FFF;
+  font-size:0.9em;
+  text-decoration:none;
+}
+nav a:hover{
+    color:#343752;
+    font-size:0.9em;
+    text-decoration:none;
+}
+div.musique {
+	border: 1px dotted black;
+  margin:10px 0px 10px 0px;
+}
+header{
+	color: #E16A72;
+	font-style: italic;
+}
+@media (min-width:601px) {
+	div.extrait{
+		width: 28%;
+		text-align:center;
+		padding: 10px 0px 10px 0px;
+		border-right: 1px dotted black;
+		display:inline-block;
+		vertical-align: top;
+	}
+	div.info{
+		width: 60%;
+		padding: 10px 10px 10px 10px;;
+		display:inline-block;
+		vertical-align: top;
+	}
+
+}
+@media (min-width: 401px){
+	nav li{
+		list-style-type:none;
+		display:inline-block;
+		border-left:1px solid #FFF;
+		padding-left:5px;
+	}
+}
+
+div.extrait audio{
+	width: 100%;
+}
+div.extrait figure {
+  margin: 0px;
+}
+@media (max-width: 400px ){
+	nav li{
+		text-align: left;
+		list-style-type:none;
+		display:block;
+		text-align: center;
+	}
+}
+@media (max-width: 600px ){
+	.extrait{
+		min-width:130px;
+		margin:auto;
+		display: block;
+		width: 28%;
+		text-align:center;
+		padding: 10px 0;
+		vertical-align: top;
+	}
+	div.info{
+		width: 95%;
+		padding: 10px 10px 10px 10px;;
+		display:inline-block;
+		text-align:center;
+		vertical-align: top;
+	}
+}
